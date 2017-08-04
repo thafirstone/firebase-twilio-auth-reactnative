@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { FormLabel, FormInput, Button } from 'react-native-elements';
 import axios from 'axios';
 
-const ROOT_URL = 'https://us-central1-one-time-pass-reactnative.cloudfunctions.net/';
+const ROOT_URL = '';
 export default class SignUpForm extends Component {
   state = { phone: '' };
   handleSubmit= async () => {
